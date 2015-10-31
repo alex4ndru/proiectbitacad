@@ -1,0 +1,227 @@
+@font-face
+{
+    font-family:'mainTitle';
+    src: url('anitass.ttf');
+}
+
+@font-face
+{
+    font-family:'citySlogan';
+    src: url('gputeks-regular.ttf');
+}
+
+@font-face
+{
+    font-family:'cityName';
+    src: url('backslash.ttf');
+}
+
+.tpoEgov
+{
+    font-family:'citySlogan';
+    font-size:30px;
+    padding-top:17px;
+    margin-right:20px;
+}
+
+.cityName
+{
+    font-family:'cityName';
+    font-size:32px;
+}
+
+.citySlogan
+{
+    font-family:'citySlogan';
+    position:relative;
+    top:-5px;
+    text-align:center;
+}
+
+html, body
+{
+    height:100%;
+}
+
+.clearFix
+{
+    float:none;
+    clear:both;
+}
+
+.floatLeft
+{
+    float:left;
+}
+
+.textRight
+{
+    text-align:right;
+}
+
+.tokenField
+{
+    width:60%;
+}
+
+.tokenLabel
+{
+    width:40%;
+    padding-right:15px;
+}
+
+a
+{
+    text-decoration:none !important;
+}
+
+.commonContent
+{
+    margin-top:50px;
+    margin-bottom:100px;
+}
+
+.menu
+{
+    margin-top:30px;
+    text-align:center;
+}
+
+/*---master page---*/
+.container
+{
+    width:100%;
+    height:100%;
+}
+
+.header
+{
+    height:80px;
+}
+
+.headerTitle
+{
+    
+}
+
+.content
+{
+    width:1000px;
+    margin:auto;
+}
+
+.footer
+{
+    width:1000px;
+    margin:auto;
+    height:60px;
+}
+
+.footerContent
+{
+    margin-top:50px;
+    text-align:center;
+}
+/*end of master page*/
+
+
+
+/*---home page---*/
+.wellcomeTitle
+{
+    margin:auto;
+    text-align:center;
+    font-family:'mainTitle';
+    font-size:40px;
+}
+
+.homeContent
+{
+    width:690px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;
+    margin-bottom:300px;
+}
+
+.homeContent .btn
+{
+    width:130px;
+    float:left;
+    border:1px solid silver;
+    border-radius:10px;
+    padding:10px;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:20px;
+    text-align:center;
+}
+
+.homeContent .btn a
+{
+    display:block;
+    width:100%;
+    height:100%;
+    border:1px solid silver;
+}
+/*end of home page*/
+
+
+/*---info page---*/
+.infoContent
+{
+    
+}
+/*end of info page*/
+
+
+/*---petitii page---*/
+.petitionsList
+{
+    height:550px;
+    overflow-y:scroll;
+}
+
+.sectionTop
+{
+    text-align:right;
+}
+
+.elMain
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.elTitle
+{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.elSummary
+{
+    margin-left:50px;
+}
+/*end of petitii page*/
+
+/*---new petition page---*/
+textarea.summaryField
+{
+    height:100px;
+    resize:none;
+}
+/*end of new petition page*/
+
+/*---city page---*/
+.cityCol div
+{
+    border:2px solid silver;
+    overflow:hidden;
+}
+
+.textCol
+{
+    padding-right:10px;
+}
+/*end of city page*/
