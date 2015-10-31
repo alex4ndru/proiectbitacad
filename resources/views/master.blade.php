@@ -34,9 +34,9 @@
                 @section('footer')
                 @show
                 <div class="footerContent">
-                    <a href="city">Your City</a> |
-                    <a href="contact">Contact</a> |
-                    <a href="help">Help</a>
+                    <a href="/city">Your City</a> |
+                    <a href="/contact">Contact</a> |
+                    <a href="/help">Help</a>
                 </div>
             </div>
         </div>
