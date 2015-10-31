@@ -12,7 +12,7 @@ class CreateTableCitizensVotes extends Migration
      */
     public function up()
     {
-        Schema::create('citizensVotes', function (Blueprint $table) {
+        Schema::create('citizensvotes', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('citizenId');
             $table->integer('petitionId');
