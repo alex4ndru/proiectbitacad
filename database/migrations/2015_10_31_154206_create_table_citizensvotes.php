@@ -27,6 +27,6 @@ class CreateTableCitizensVotes extends Migration
      */
     public function down()
     {
-        Schema::drop('citizensVotes');
+        Schema::drop('citizensvotes');
     }
 }
