@@ -27,12 +27,7 @@
                     {!! Form::open(['url' => '/petitions/vote/for/'.$petition['id']]) !!}
                         <div class='form-group'>
                             {!! Form::submit('Vote IN SUPPORT',['class'=>'form-control btn btn-primary']) !!}
-                        </div>    
-                        <div class='form-group'>
-                            <div class="floatLeft textRight tokenLabel">{!! Form::label('citizenToken','Token generated access code') !!}</div>
-                            <div class="floatLeft tokenField">{!! Form::text('citizenToken',null,['class'=>'form-control']) !!}</div>
-                            <div class="clearFix"></div>
-                        </div>   
+                        </div>  
                     {!! Form::close() !!}
                 </div>
             </div>
@@ -42,11 +37,6 @@
                     {!! Form::open(['url' => '/petitions/vote/against/'.$petition['id']]) !!}
                         <div class='form-group'>
                             {!! Form::submit('Vote AGAINST',['class'=>'form-control btn btn-primary']) !!}
-                        </div>
-                        <div class='form-group'>
-                            <div class="floatLeft textRight tokenLabel">{!! Form::label('citizenToken','Token generated access code') !!}</div>
-                            <div class="floatLeft tokenField">{!! Form::text('citizenToken',null,['class'=>'form-control']) !!}</div>
-                            <div class="clearFix"></div>
                         </div>
                     {!! Form::close() !!}
                 </div>

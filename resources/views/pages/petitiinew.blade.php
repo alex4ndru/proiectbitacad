@@ -28,12 +28,6 @@
                 </div>
                 
                 <div class='form-group'>
-                    <div class="floatLeft textRight tokenLabel">{!! Form::label('citizenToken','Token generated access code') !!}</div>
-                    <div class="floatLeft tokenField">{!! Form::text('citizenToken',null,['class'=>'form-control']) !!}</div>
-                    <div class="clearFix"></div>
-                </div>
-                
-                <div class='form-group'>
                     {!! Form::submit('Register',['class'=>'form-control btn btn-primary']) !!}
                 </div>
             {!! Form::close() !!}

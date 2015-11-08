@@ -16,6 +16,7 @@
                             <div class="citySlogan">Independence - Security - Trust</div>
                         </div>
                         <div class="clearFix"></div>
+                        <div class="topAuth">  {!! $logIn !!} {!! $logOut !!} <span>{{ $userName }}</span></div>
                     </div>
                 </a>
                 @section('header')

@@ -87,6 +87,41 @@ a
     text-align:center;
 }
 
+.topAuth
+{
+    text-align:right
+}
+
+.topAuth div
+{
+    padding:5px;
+    margin-left:10px;
+    border:1px solid orange;
+    background:#CD5700;
+    float:right;
+}
+
+.topAuth div:hover
+{
+    background:#CD7900;
+}
+
+.topAuth span
+{
+    display:block;
+    float:right;
+    padding:5px;
+    margin-left:10px;
+}
+
+.topAuth div a
+{
+    color:white;
+    display:block;
+    padding:0px;
+    margin-left:0px;
+}
+
 /*---master page---*/
 .container
 {

@@ -35,3 +35,8 @@ Route::get('alegeri', 'Page@serveAlegeri');
 Route::get('/contact', 'Page@serveContact');
 Route::get('/help', 'Page@serveHelp');
 Route::get('/city', 'Page@serveCity');
+
+Route::controllers([
+   'auth' => 'Auth\AuthController',
+   'password' => 'Auth\PasswordController',
+]);
